@@ -1,4 +1,4 @@
-Live url [Preview] (https://medium-sanity-1bwbaxn8s-tsowems.vercel.app/post/my-first-post)
+Live url [Preview] (https://medium-sanity-1bwbaxn8s-tsowems.vercel.app)
 
 # Next.js + Tailwind CSS Example
 
