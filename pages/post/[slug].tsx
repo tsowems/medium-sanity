@@ -109,13 +109,13 @@ function Post({ post }: Props)  {
                 <span className="text-gray-700">Email</span>
                 <input
                 {...register("email", {required: true})}
-                 className="shadow border rounded py-2 px-3 form-input mt-1 block w-full ring-yellow-500 outline-none focus:ring" type="email" placeholder="John Doe"  />
+                 className="shadow border rounded py-2 px-3 form-input mt-1 block w-full ring-yellow-500 outline-none focus:ring" type="email" placeholder="email"  />
             </label>
             <label className="block mb-5">
                 <span className="text-gray-700">Comment</span>
                 <textarea 
                 {...register("comment", {required: true})}
-                className="shadow border rounded py-2 px-3 form-textarea mt-1 block w-full ring-yellow-500 outline-none focus:ring" type="text" placeholder="John Doe" rows={8} />
+                className="shadow border rounded py-2 px-3 form-textarea mt-1 block w-full ring-yellow-500 outline-none focus:ring"  placeholder="Comment" rows={8} />
             </label>
             <div className="flex flex-col p-5">
                 {errors.name && (
