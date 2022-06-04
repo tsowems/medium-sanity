@@ -8,7 +8,7 @@ import {Post} from "../typings";
 interface Props {
   posts: [Post];
 }
-
+ 
 export default function Home({posts}: Props) {
   console.log(posts)
   return (
