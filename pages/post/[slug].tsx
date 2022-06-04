@@ -94,7 +94,7 @@ function Post({ post }: Props)  {
             <h4 className="text-3xl font-bold"> Leave a comment below!</h4>
             <hr className="py-3 mt-2" />
             <input type="hidden"
-            {...register("id")}
+            {...register("_id")}
             name="_id"
             value={post._id}
             />
